@@ -35,6 +35,12 @@
     background-color: #FFF;
     min-height: 8.88vh;
     border:1px solid #BEC1BB;
+    transition: 300ms;
+}
+
+.box-chat:hover{
+    transition: 300ms;
+    background-color: #D4DCFF;
 }
 
 
@@ -46,7 +52,7 @@
     border:1px solid #BEC1BB;
     align-items: center;
     justify-content: center;
-    
+    transition: 250ms;
 }
 
 
@@ -62,13 +68,16 @@
     padding-right: 3.5rem;
     border-radius: 0.25rem;
     font-size: 1.4rem;
+    transition: 250ms;
 }
 
 .button-open-new-chat:hover{
     background-color: #CDC3E6;
+    transition: 250ms;
 }
 .button-open-new-chat:active{
     background-color: #BEC1BB;
+    transition: 250ms;
 }
 
 
@@ -226,7 +235,7 @@ i{
 }
 
 .img-hand{
-    width: 60%;
+    width: 50%;
 }
 
 .text-container{
@@ -239,7 +248,7 @@ i{
 
 .tittle{
     font-family: 'Roboto', sans-serif;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 3.5rem;
 }
 
