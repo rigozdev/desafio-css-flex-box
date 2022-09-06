@@ -1,0 +1,262 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.container-chat-room{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+}
+.chat-list{
+    background-color: #BEC1BB;
+    width: 20%;
+    min-height: 100vh;
+}
+.chat-window{
+    background-color: #FFF;
+    width: 80%;
+    min-height: 100vh;
+}
+
+.container-boxs-chat{
+    display: flex;
+    flex-direction: column;
+    background-color: #BEC1BB;
+    width: 99.5%;
+    min-height: 100vh;
+}
+
+.box-chat{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #FFF;
+    min-height: 8.88vh;
+    border:1px solid #BEC1BB;
+}
+
+
+.new-chat{
+    display: flex;
+    width: 100%;
+    background-color: #FFF;
+    min-height: 18.9vh;
+    border:1px solid #BEC1BB;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.button-open-new-chat{
+    font-family: 'Roboto', sans-serif;
+    background-color: #A491D2;
+    color: #FFF;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+}
+
+.button-open-new-chat:hover{
+    background-color: #CDC3E6;
+}
+.button-open-new-chat:active{
+    background-color: #BEC1BB;
+}
+
+
+
+.img-container{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.img-avatar{
+    width:65%;
+    border-radius: 100%;
+}
+
+.chat-name{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 1.4rem;
+    padding-left: 5px;
+    min-height: 4.4vh;
+}
+
+.chat-text-detail{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 1rem;
+    padding-left: 5px;
+    min-height: 4.4vh;
+}
+
+.actual-box-chat{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #FFF;
+    min-height: 7.5vh;
+    border:1px solid #BEC1BB;
+}
+
+.actual-chat-img-container{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.img-avatar-resize{
+    width:45%;
+    border-radius: 100%;
+}
+
+.actual-detail-chat-container{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.options-container{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+
+}
+
+.actual-chat-name{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 1.15rem;
+
+    min-height: 4vh;
+}
+
+.actual-chat-text-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 0.8rem;
+    min-height: 4vh;
+    color: #777;
+}
+
+.icon-container-menu{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    min-height: 4vh;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.icon-container-message{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    min-height: 4vh;
+    padding-right: 10px;
+}
+
+i{
+    color: #777;
+}
+
+.chat-window{
+    border-left: 1px solid #BEC1BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.hand-container{
+    display: flex;
+    width: 40%;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.text-container{
+    display: flex;
+    width: 40%;
+
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.img-hand{
+    width: 60%;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.tittle{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.description-bold{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+
